@@ -64,8 +64,8 @@
     border: solid 2px rgb(128, 128, 128, 0.5);
     border-radius: .2rem;
 }
-#pass{
-    border: solid 2px rgba(196, 16, 16, 0.919);
+#pass:invalid{
+    border: solid 2px rgb(168, 22, 22);
 }
 .placeholders .col1 input:focus,
 .placeholders .col2 input:focus{
@@ -73,9 +73,6 @@
     box-shadow: 0px 0px 10px rgb(0,0,0,0.3);
     outline: none;
     transition: all .2s;
-}
-#pass input{
-    border: solid 2px red;
 }
 .container2_1{
     margin-top:15rem ;
